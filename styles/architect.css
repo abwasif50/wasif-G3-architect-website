@@ -1,8 +1,88 @@
-.work-sans-font{
+/* navbar style */
+.worksans-sans-font{
+    color: rgb(19, 19, 19);
+    font-family: "Work Sans",sans-serif;
+    font-weight: 30px;
+    font-style: normal;
+    
+}
+.compani{
+    font-size: 45px;
+    font-weight: 700;
+}
+.bg-color{
 
-font-family: "work sans",sans-serif;
-font-optical-sizing: auto;
-font-weight: 400;
-font-style: normal;
+  background-color: rgba(255, 144, 14, 0.1);
+}
+.navbar,.banner{
+max-width: 1440px;
+margin: 0 auto;
 
 }
+ .navbar{
+align-items: center;
+    justify-content: space-between;
+ }
+ .same-style{
+
+display: flex;
+ }
+ .nav-item{
+
+    list-style: none;
+    margin-right:30px;
+ }
+
+ .nav-link{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color:rgb(66, 66, 66) ;
+ }
+ .nav-links{
+text-align: center;
+ }
+ .navbar, .banner{
+max-width: 1440px;
+margin: 0 auto;
+ }
+  .banner-title{
+color: rgb(19, 19, 19);
+font-family: Work Sans;
+font-size: 4rem
+;
+font-weight: 700;
+
+  }
+ 
+  .banner-description{
+    color: rgb(114, 114, 114);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+
+ } 
+ .banner-content{
+max-width: 850px;
+margin: 0 auto;
+text-align: center;
+margin-bottom: 50px;
+ }
+ .button{
+
+background: rgb(255, 144, 14);
+color: white;
+padding: 20px 25px;
+font-size: 1.25rem;
+border-radius: 8px;
+ }
+ .banner-image{
+width: 100%;
+ }
+ /* make responsive */
+ @media screen and(max-width 576px) {
+    .navbar, .nav-links{
+        flex-direction: column;
+    }
+ }
